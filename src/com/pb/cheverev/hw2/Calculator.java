@@ -1,3 +1,5 @@
+package com.pb.cheverev.hw2;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -19,7 +21,12 @@ public class Calculator {
                 System.out.println("" + operand1 + sign + operand2 + "=" + (operand1-operand2));
                 break;
             case '/':
-                System.out.println("" + operand1 + sign + operand2 + "=" + (operand1/operand2));
+                if (operand2 == 0) {
+                    System.out.println("division by zero");
+                } else {
+                    System.out.println("" + operand1 + sign + operand2 + "=" + (operand1/operand2));
+                }
+
                 break;
             case '*':
                 System.out.println("" + operand1 + sign + operand2 + "=" + (operand1*operand2));

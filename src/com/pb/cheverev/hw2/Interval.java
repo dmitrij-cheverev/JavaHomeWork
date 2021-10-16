@@ -1,3 +1,5 @@
+package com.pb.cheverev.hw2;
+
 import java.util.Scanner;
 
 public class Interval {
