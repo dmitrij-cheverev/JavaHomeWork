@@ -26,7 +26,6 @@ public class Calculator {
                 } else {
                     System.out.println("" + operand1 + sign + operand2 + "=" + (operand1/operand2));
                 }
-
                 break;
             case '*':
                 System.out.println("" + operand1 + sign + operand2 + "=" + (operand1*operand2));
