@@ -30,6 +30,6 @@ public class Array {
                 }
             }
         }
-        System.out.println(Arrays.toString(array));
+        System.out.println("Bubble sort:\n" + Arrays.toString(array));
     }
 }
