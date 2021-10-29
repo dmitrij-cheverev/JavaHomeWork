@@ -29,7 +29,8 @@ public class CapitalLetter {
 
 
     public static void main(String[] args) {
-        String line = "Истина — это то, что выдерживает проверку опытом. Эйнштейн А.";
+        //String line = "Истина — это то, что выдерживает проверку опытом. Эйнштейн А.";
+        String line;
         String[] lineArr;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the string: ");
